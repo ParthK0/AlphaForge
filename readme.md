@@ -25,3 +25,13 @@ alphaforge/
 1. Navigate to `backend/`
 2. Install dependencies: `pip install -r requirements.txt`
 3. Run the server: `uvicorn main:app --reload`
+
+## Features
+- **FastAPI Backend**: High-performance API for trading logic.
+- **LLM-Powered Agents**: Intelligent agents for market analysis.
+- **RAG Integration**: Retrieval-Augmented Generation for specialized data processing.
+- **Next.js Frontend**: Modern web interface for project management.
+- **Java Backtester**: High-performance backtesting engine for trading strategies.
+
+## Contributions
+Feel free to open issues or submit pull requests to improve AlphaForge.
