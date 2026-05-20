@@ -16,3 +16,6 @@ pdfplumber
 python-dotenv
 requests
 groq
+pandas
+numpy
+
