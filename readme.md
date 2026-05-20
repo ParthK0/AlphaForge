@@ -22,9 +22,27 @@ alphaforge/
 ## Getting Started
 
 ### Backend Setup
-1. Navigate to `backend/`
-2. Install dependencies: `pip install -r requirements.txt`
-3. Run the server: `uvicorn main:app --reload`
+1. Create a Python virtual environment inside the `backend/` directory:
+   ```bash
+   cd backend
+   python -m venv venv
+   ```
+2. Activate the virtual environment:
+   - **Mac/Linux:** `source venv/bin/activate`
+   - **Windows:** `venv\Scripts\activate`
+3. Install dependencies from the root directory:
+   ```bash
+   pip install -r ../requirements.txt
+   ```
+4. Set up your `.env` file using `.env.example` as a template.
+5. Initialize and verify the database and pgvector extension:
+   ```bash
+   python data/db_init.py
+   ```
+6. Run the server:
+   ```bash
+   uvicorn main:app --reload
+   ```
 
 ## Features
 - **FastAPI Backend**: High-performance API for trading logic.
